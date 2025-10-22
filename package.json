@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-francisco-ditutala",
+  "version": "1.0.0",
+  "description": "Portfolio profissional de Francisco Ditutala",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -o",
+    "dev": "npx live-server --port=8080",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "personal",
+    "cv",
+    "resume"
+  ],
+  "author": "Francisco Ditutala",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranciscoDitutala/Portfolio.git"
+  },
+  "devDependencies": {}
+}
