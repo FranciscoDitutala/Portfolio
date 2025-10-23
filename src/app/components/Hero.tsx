@@ -14,6 +14,7 @@ export default function Hero() {
       >
         <p className="uppercase text-gray-500 text-sm">Disponível para trabalho</p>
         <h1 className="text-5xl font-extrabold mt-4">{siteMeta.name}</h1>
+        <p className="uppercase text-gray-500 text-sm">{siteMeta.title}</p>
         <p className="text-lg text-gray-700 mt-4 max-w-xl">{siteMeta.description}</p>
         <div className="mt-8 flex gap-4">
           <a href="/CV.pdf" className="bg-black text-white px-6 py-3 rounded-md">Download CV</a>
