@@ -4,7 +4,7 @@ import { education } from "../../data/portfolio";
 
 export default function Education() {
   return (
-    <section id="experience" className="max-w-6xl mx-auto px-8 py-20">
+    <section id="education" className="max-w-6xl mx-auto px-8 py-20">
       <h2 className="text-3xl font-bold mb-10">Educação</h2>
       <div className="space-y-6">
         {education.map((exp, i) => (
@@ -14,7 +14,7 @@ export default function Education() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.2 }}
-            className="p-6 border-4 border-gray-500  rounded-xl hover:shadow-lg transition"
+            className="p-6 border rounded-xl hover:shadow-lg transition"
           >
             <div className="flex justify-between ">
               <div>

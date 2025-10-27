@@ -28,7 +28,7 @@ export default function Hero() {
         transition={{ delay: 0.4 }}
         className="w-48 h-48  overflow-hidden shadow-xl"
       >
-        <Image src="/profile.jpg" alt="Foto de perfil" width={300} height={300} />
+        <Image src="/img20.jpg" alt="Foto de perfil" width={300} height={300} />
       </motion.div>
     </section>
   );

@@ -1,4 +1,4 @@
-export const siteMeta = {
+export const siteMeta2 = {
   name: "Francisco Ditutala",
   title: "Engenheiro Informático ",
   description: "Crio experiências digitais modernas, funcionais e com impacto. Dedicado, observador, aprendizagem com facilidade, "
@@ -9,6 +9,18 @@ export const siteMeta = {
   location: "Luanda, Angola",
   email: "teuemail@exemplo.com",
   phone: "+244 9xx xxx xxx",
+};
+
+
+export const siteMeta = {
+  name: "Francisco Ditutala",
+  title: "Engenheiro Informático ",
+  description: "Desenvolvo desde sistemas, plataformas, landing pages, aplicativos e muito mais."
+                +"Uma mistura de design, desenvolvimento frontend e habilidade profissional que vão destacar seu produto no mercado.",
+
+  location: "Luanda, Angola",
+  email: "ditutalafrancisco99@gmail.com",
+  phone: "+244 938374424",
 };
 
 export const stats = [
